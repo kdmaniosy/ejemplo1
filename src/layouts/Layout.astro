@@ -49,9 +49,91 @@ const { title } = Astro.props;
 
 		</div>
 		
-		<div class="bg-white rounded-xl shadow-md mt-6 max-w-6xl container mx-auto">
-			kasjdlajd
+		<div class="bg-white p-5 rounded-xl shadow-md shadow-slate-200 mt-6 max-w-6xl container mx-auto">
+			<div class="grid grid-cols-2 mt-10">
+				<div class="h-64 w-64 bg-[url(https://as-images.apple.com/is/MME73_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1632861338000)] bg-[length:140%_140%] bg-center mx-auto">
+
+				</div>
+				<div> 
+					<span class="font-semibold text-sm bg-slate-100 rounded-full px-3 pb-1">New</span>
+					<h1 class="text-3xl font-semibold mt-2">Apple Airpods</h1>
+					<span class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-1 px-3 rounded-lg mt-3 inline-block">
+						3rd Generation
+					</span>
+					<div class="flex mt-6 text-5m text-gray-600">
+						<span class="bg-blue-50 w-3 rounded-full inline-block mr-2"></span>
+						<p class="w-4/5">Personalized Spatial Audio with dynamic head tracking places sound all around you</p>
+
+					</div>
+					
+				</div>
+			</div>
+			<div class="shadow-md shadow-slate-100 h-12 flex justify-between items-center px-6">
+				<div class="text-sm text-gray-400">
+					<span class="text-blue-600 font-semibold">Wireless Earbuds</span> with Lightning Charging Case Spatial Audio
+				</div>
+				<div class="flex space-x-2">
+					<div class="bg-slate-100 p-1 rounded">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+						  </svg>
+						  
+					</div>
+					<div class="bg-slate-100 p-1 rounded">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						  </svg>
+						  
+					</div>
+				</div>
+			</div>
 		</div>
+		
+		<div class="mt-12 container max-w-6xl mx-auto grid grid-cols-4 gap-6">
+			<div class="bg-white shadow rounded-lg shadow-slate-200 p-4 ">
+				<div class="h-48 w-48 bg-[url('https://m.media-amazon.com/images/I/61WnTqb1MrL.jpg')]
+				bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-bold bg-slate-100 text-center py-1 rounded-lg">
+					3rd Generation
+				</p>
+			</div>
+			<div class="bg-white shadow rounded-lg shadow-slate-200 p-4 ">
+				<div class="h-48 w-48 bg-[url('https://tiendasishop.com/media/catalog/product/m/v/mv7n2lz_a_1.jpg')]
+				bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-bold bg-slate-100 text-center py-1 rounded-lg">
+					Airpods
+				</p>
+			</div>
+			<div class="bg-white shadow rounded-lg shadow-slate-200 p-4 ">
+				<div class="h-48 w-48 bg-[url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1632861342000')]
+				bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-bold bg-slate-100 text-center py-1 rounded-lg">
+					2nd Generation
+				</p>
+			</div>
+			<div class="bg-white shadow rounded-lg shadow-slate-200 p-4 ">
+				<div class="h-48 w-48 bg-[url('https://tiendasishop.com/media/catalog/product/m/g/mgyj3am_a.jpg')]
+				bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-bold bg-slate-100 text-center py-1 rounded-lg">
+					Airpods Max
+				</p>
+			</div>
+		</div>
+
+		<h1 class="text-center text-3xl mt-8 font-semibold">
+			<span class="text-blue-600">Newest</span> Product
+		</h1>
+		<h3 class="text-center text-gray-600">
+			Personalized Spatial Audio with dynamic head tracking places
+			sound all around you
+		</h3>
+		<div class="bg-white h-14 flex items-center mt-10">
+			<footer class="container max-w-6xl mx-auto">
+				Apple Inc. 2023
+			</footer>
+		</div>
+		
+	
 		<slot />
 	</body>
 </html>
